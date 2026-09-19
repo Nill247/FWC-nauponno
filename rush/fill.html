@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Natthapon Srisuk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar" aria-label="Main navigation">
+  <a href="index.html" class="brand"><span class="dot"></span> Palita</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="home-link">Home</a></li>
+    <li><a href="#profile">Profile</a></li>
+    <li><a href="#skill">Skill</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</nav>
+
+<main>
+
+  <section id="profile">
+    <div class="wrap">
+      <div class="hero-grid">
+        <img class="avatar" alt="Profile photo" src="img/fill_image.jpg">
+        <div>
+          <h1>Palita Choorat</h1>
+          <span class="role">Computer Engineering</span>
+        </div>
+      </div>
+
+      <p class="about-text">
+        Hi, I'm a second-year Computer Engineering student currently exploring web development. 
+        This is my first time learning how to build websites, and I'm enjoying discovering how they work. 
+        I'm also interested in networking, AI, and exploring different areas of technology.
+      </p>
+
+      <dl class="about-facts">
+        <div class="fact">
+          <dt>Education</dt>
+          <dd>Computer Engineering, KMITL</dd>
+        </div>
+
+        <div class="fact">
+          <dt>Interests</dt>
+          <dd>Web Development, Network, AI</dd>
+        </div>
+
+      </dl>
+    </div>
+  </section>
+
+  <section id="skill">
+    <div class="wrap">
+      <p class="eyebrow">Showcase</p>
+      <h2 class="section-title">Skills &amp; Abilities</h2>
+
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Coding Skill</h3>
+          <ul class="skill-bars">
+            <li>
+              <div class="skill-name"><span>HTML / CSS</span><span>40%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-value="40"></div></div>
+            </li>
+            <li>
+              <div class="skill-name"><span>JavaScript</span><span>5%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-value="5"></div></div>
+            </li>
+            <li>
+              <div class="skill-name"><span>C Language</span><span>20%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-value="20"></div></div>
+            </li>
+            <li>
+              <div class="skill-name"><span>Python</span><span>60%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-value="60"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Design</h3>
+          <ul class="skill-bars">
+            <li>
+              <div class="skill-name"><span>Drawing</span><span>50%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-value="50"></div></div>
+            </li>
+            <li>
+              <div class="skill-name"><span>Figma</span><span>10%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-value="10"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Other</h3>
+          <ul class="skill-bars">
+            <li>
+              <div class="skill-name"><span>Git / GitHub</span><span>40%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-value="40"></div></div>
+            </li>
+            <li>
+              <div class="skill-name"><span>Unix</span><span>30%</span></div>
+              <div class="bar-track"><div class="bar-fill" data-value="30"></div></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <p class="eyebrow">Background</p>
+      <h2 class="section-title">Education</h2>
+
+      <ul class="timeline">
+        <li>
+          <p class="period">2025 — Present</p>
+          <h3>Engineering Student</h3>
+          <p>King Mongkut's Institute of Technology Ladkrabang · Majoring in Computer Engineering</p>
+        </li>
+        <li>
+          <p class="period">2018 — 2024</p>
+          <h3>Secondary School</h3>
+          <p>Sriyapai School, Science-Mathematics Program</p>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <p class="eyebrow">Get in touch</p>
+      <h2 class="section-title">Contact Me</h2>
+      <p class="contact-lead">
+        Feel free to reach out if you'd like to connect!
+      </p>
+      <div class="contact-links">
+        <a>Email : 68010669@kmitl.ac.th</a>
+        <a href="https://github.com/Pali-ta" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.instagram.com/gn_sxp/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>© 2026 Palita Choorat — Portfolio</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
